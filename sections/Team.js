@@ -1,4 +1,4 @@
-import { HireCard } from "@/components/common/HireCard"
+//import { HireCard } from "@/components/common/HireCard"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
 import { teamMembers } from "@/assets/data/dummydata"
@@ -8,7 +8,7 @@ const Team = () => {
 
   return (
     <>
-      <section className='agency bg-top'>
+      <section className='bg-top agency'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='MEET OUR TEAM' /> <br />
@@ -27,7 +27,7 @@ const Team = () => {
                 </div>
               </div>
             ))}
-          <HireCard />
+         {/* <HireCard /> */}
           </div>
         </div>
       </section>
