@@ -4,17 +4,6 @@ import Testimonial from "./Testimonial"
 import Portfolio from "./Portfolio"
 import Brand from "./Brand"
 import BlogCard from "./BlogCard"
-//import Login from "@/pages/admin/login"
-//import SignUpScreen from "./dashboard/SignUpScreen"
 import BlogSection from "@/sections/BlogSection"
-import AdminDashboard from "@/pages/dashboard"
-//import Clients from "@/pages/admin/clients"
-//import BlogA from "@/pages/admin/blog"
-//import Jobs from "@/pages/admin/jobs"
-//import PortfolioA from "@/pages/admin/portfolio"
-//import Users from "@/pages/admin/users" 
-//import Settings from "@/pages/admin/settings"
-//import Notifications from "@/pages/admin/notification"
 
-
-export { Expertise, Banner, Testimonial, Portfolio, Brand, BlogCard, BlogSection, AdminDashboard }
+export { Expertise, Banner, Testimonial, Portfolio, Brand, BlogCard, BlogSection }

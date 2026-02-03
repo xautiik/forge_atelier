@@ -322,10 +322,3 @@ export const teamMembers = [
   },
 ]
 
-export const dashboardCounts = {
-  blogs: { total: 12, monthly: 3 },
-  users: { total: 8, monthly: 1 },
-  cases: { total: 9, monthly: 2 },
-  contacts: { total: 32, monthly: 7 },
-  jobApplications: { total: 5, monthly: 2 },
-}
