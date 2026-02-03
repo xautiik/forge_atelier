@@ -41,5 +41,3 @@ App defaults to http://localhost:3000
 - Replace images in `public/images/` and adjust paths in dummy data if needed.
 - Styles live in `styles/` (SCSS) and component-specific files.
 
-## License
-Proprietary / internal use. Update this section if you plan to open source.
