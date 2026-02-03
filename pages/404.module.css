@@ -1,0 +1,59 @@
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 150px 20px; /* Padding for larger screens */
+    font-size: 24px; /* Default font size */
+  }
+  
+.container h1 { 
+    font-size: 3em;
+    color: #ccff00;
+}
+
+.container h2 {
+    font-size: 1.5em;
+}
+  .iconContainer {
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .magnifyingGlass {
+    font-size: 100px; /* Icon size for large screens */
+    color: #ccff00; /* Color of the icon */
+    animation: bounce 1s infinite; /* Bouncing effect */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 60px 10px; /* Reduced padding for smaller screens */
+      font-size: 20px; /* Slightly smaller font size */
+    }
+  
+    .magnifyingGlass {
+      font-size: 80px; /* Smaller icon size for mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 40px 5px; /* Further reduced padding for very small screens */
+      font-size: 18px; /* Even smaller font size */
+    }
+  
+    .magnifyingGlass {
+      font-size: 60px; /* Smallest icon size for mobile */
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Bouncing effect */
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.login-screen {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-screen form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-screen label {
+    margin-bottom: 1rem;
+  }
+  
+  .login-screen button {
+    padding: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
