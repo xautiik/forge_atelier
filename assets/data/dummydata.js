@@ -260,7 +260,7 @@ export const brands = [
   { id: "brand-6", name: "Helio", logo: "/images/l6.svg" },
 ]
 
-// Kept for backward compatibility with the Brand-dummy component
+// Brand alias retained for older imports
 export const brand = brands
 
 export const teamMembers = [

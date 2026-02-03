@@ -81,7 +81,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className='contact bg-top'>
+      <section className='bg-top contact'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='CONTACT' /> <br />
@@ -93,14 +93,14 @@ const Contact = () => {
               <div className='contact-details'>
                 <div className='box'>
                   <FiPhone size={30} className='icons' />
-                  <h3>+251 99 444 7601</h3>
-                  <h3>+251 99 327 9197</h3>
+                  <h3>+251 99 444 0000</h3>
+                  <h3>+251 99 327 0000</h3>
                   <span>Call us: Monday - Friday <br /> 3:00 - 11:00 Local Time</span>
                 </div>
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
                   <h3>Addis Ababa</h3>
-                  <span>Kotebe 02, Nib International Bank Bldg, 3rd Floor, Near Delight Hotel</span>
+                  <span>P.O. Box 2, Nib International Bank Bldg, 3rd Floor </span>
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />

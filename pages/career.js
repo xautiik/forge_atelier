@@ -1,4 +1,4 @@
-//import { Career } from "@/sections"
+import { Career } from "@/sections"
 import Head from "next/head"
 import React from "react"
 
