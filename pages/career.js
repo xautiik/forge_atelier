@@ -2,7 +2,7 @@ import { Career } from "@/sections"
 import Head from "next/head"
 import React from "react"
 
-const career = () => {
+const Career = () => {
   return (
     <>
       <Head>
@@ -13,4 +13,4 @@ const career = () => {
   )
 }
 
-export default career
+export default Career
