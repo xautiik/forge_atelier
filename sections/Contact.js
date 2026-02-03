@@ -256,6 +256,32 @@ const Contact = () => {
           max-width: 1500px;
           border-radius: 30px 0 30px 0;
         }
+
+        @media (max-width: 768px) {
+          .contact .content {
+            flex-direction: column;
+            gap: 24px;
+          }
+          .contact .left,
+          .contact .right {
+            width: 100%;
+          }
+          .contact .grid-2 {
+            grid-template-columns: 1fr;
+            gap: 12px;
+          }
+          .contact .inputs input,
+          .contact .inputs textarea {
+            width: 100%;
+          }
+          .contact ul {
+            justify-content: flex-start;
+            gap: 12px;
+          }
+          .contact button.button-primary {
+            width: 100%;
+          }
+        }
       `}</style>
     </>
   )
